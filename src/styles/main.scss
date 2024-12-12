@@ -1,0 +1,19 @@
+@use "./variables" as *;
+@use "./todo-item" as *;
+@use "./theme-switch" as *;
+@use "./todo-list" as *;
+@use "./theme" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: $size-3xl auto;
+  padding: $size-3xl;
+  border-radius: $size-sm;
+  transition: all 0.3s ease;
+}

@@ -1,7 +1,17 @@
-import "./App.css";
+import { FC } from "react";
+import ThemeToggle from "./components/ThemeToggle";
+import TodoList from "./components/TodoList";
+import { ThemeProvider } from "./context/ThemeContext";
 
-const App = () => {
-  return <>ToDo List</>;
+const App: FC = () => {
+  return (
+    <ThemeProvider>
+      <div className="app-container">
+        <ThemeToggle />
+        <TodoList />
+      </div>
+    </ThemeProvider>
+  );
 };
 
 export default App;

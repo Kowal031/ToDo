@@ -1,0 +1,62 @@
+@use "./variables" as *;
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: $size-md;
+  margin-bottom: $size-md;
+  border: 1px solid;
+  border-radius: $size-xs;
+  transition: all 0.3s ease;
+
+  .checkbox {
+    width: $size-xl;
+    height: $size-xl;
+    border: 2px solid;
+    border-radius: $size-xs;
+    margin-right: $size-md;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &.checked {
+      background-color: $success;
+      border-color: $success;
+
+      &::after {
+        content: "✓";
+        color: $white;
+        font-size: $size-md;
+      }
+    }
+  }
+
+  .todo-text {
+    flex-grow: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  &.completed {
+    .todo-text {
+      text-decoration: line-through;
+      opacity: 0.6;
+    }
+  }
+
+  .delete-btn {
+    background-color: $error;
+    color: $white;
+    border: none;
+    border-radius: $size-xs;
+    padding: $size-xs $size-md;
+    margin-left: $size-md;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $error-hover;
+    }
+  }
+}

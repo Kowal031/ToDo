@@ -1,0 +1,85 @@
+@use "./variables" as *;
+
+body {
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+
+  &.light-theme {
+    background-color: $light-bg;
+    color: $dark;
+
+    .app-container {
+      background-color: $white;
+      box-shadow: 0 4px 6px $gray88;
+    }
+
+    .todo-input {
+      background-color: $white-smoke;
+      border-color: $gray88;
+    }
+
+    .todo-item {
+      background-color: $white;
+      border-color: $gray88;
+
+      .checkbox {
+        border-color: $gray88;
+      }
+
+      &.completed {
+        .checkbox {
+          background-color: $success;
+          border-color: $success;
+        }
+      }
+    }
+
+    .theme-switch {
+      background-color: $gray88;
+
+      .theme-slider::before {
+        background-color: $white;
+      }
+    }
+  }
+
+  &.dark-theme {
+    background-color: $dark-bg;
+    color: $white;
+
+    .app-container {
+      background-color: $midnight;
+      box-shadow: 0 4px 6px $dark;
+    }
+
+    .todo-input {
+      background-color: $cloud-burst;
+      border-color: $cloud-burst;
+      color: $white-smoke;
+    }
+
+    .todo-item {
+      background-color: $midnight;
+      border-color: $cloud-burst;
+
+      .checkbox {
+        border-color: $bright-grey;
+      }
+
+      &.completed {
+        .checkbox {
+          background-color: $success;
+          border-color: $success;
+        }
+      }
+    }
+
+    .theme-switch {
+      background-color: $bright-grey;
+
+      .theme-slider::before {
+        background-color: $midnight;
+      }
+    }
+  }
+}
