@@ -11,9 +11,13 @@
 }
 
 .app-container {
-  max-width: 600px;
+  max-width: 590px;
   margin: $size-3xl auto;
   padding: $size-3xl;
   border-radius: $size-sm;
   transition: all 0.3s ease;
+
+  @media (max-width: 600px) {
+    margin: $size-3xl 1rem;
+  }
 }

@@ -3,8 +3,8 @@ export const CONSTANTS = {
   CANCEL_BTN_LABEL: "Cancel",
   ADD_BTN_LABEL: "Add",
   THEME: {
-    LIGHT: "dark",
-    DARK: "light",
+    LIGHT: "light",
+    DARK: "dark",
   },
   TODO: {
     COMPLETED: "completed",
