@@ -1,0 +1,7 @@
+@use "./variables" as *;
+
+.language-switcher-container {
+  border-radius: $size-xl;
+  padding: 0 0.5rem;
+  transition: background-color 0.3s;
+}

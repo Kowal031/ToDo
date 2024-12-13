@@ -1,0 +1,95 @@
+@use "./variables" as *;
+
+.todo-add-container {
+  margin-bottom: $size-xl;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: $size-xs;
+  padding: $size-sm $size-md;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  gap: $size-xs;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  .todo-add-btn-icon {
+    font-size: $size-xl;
+    line-height: 1;
+  }
+}
+
+.todo-add-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $size-md;
+}
+
+.todo-add-form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: $size-md;
+
+  button {
+    flex-grow: 1;
+    padding: $size-sm $size-md;
+    border: none;
+    border-radius: $size-xs;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .todo-add-cancel-btn {
+    background-color: $error;
+    color: $white;
+
+    &:hover {
+      background-color: $error-hover;
+    }
+  }
+
+  .todo-add-confirm-btn {
+    background-color: $success;
+    color: $white;
+
+    &:hover {
+      background-color: $success-hover;
+    }
+  }
+}
+
+.todo-input {
+  width: 100%;
+  padding: $size-md;
+  border: 1px solid;
+  border-radius: $size-xs;
+  font-size: $size-md;
+  transition: all 0.3s ease;
+  outline: none;
+
+  &:focus {
+    transform: translateY(-5px) scale(1.05);
+  }
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 60vh;
+
+  overflow: auto;
+  scrollbar-width: thin;
+}

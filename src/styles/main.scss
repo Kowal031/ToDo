@@ -1,0 +1,26 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+@use "./todo-item" as *;
+@use "./theme-switch" as *;
+@use "./todo-list" as *;
+@use "./modal" as *;
+@use "./language-switch" as *;
+@use "./theme" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 590px;
+  margin: $size-3xl auto;
+  padding: $size-3xl;
+  border-radius: $size-sm;
+  transition: all 0.3s ease;
+
+  @media (max-width: 600px) {
+    margin: $size-3xl 1rem;
+  }
+}

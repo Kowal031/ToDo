@@ -1,0 +1,87 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.833);
+  @include flex-center;
+  z-index: 1000;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.modal-content {
+  background-color: $white;
+  margin-bottom: $size-8xl;
+  padding: 25px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  &:hover {
+    cursor: default;
+  }
+
+  h2 {
+    color: $dark;
+  }
+
+  .modal-body {
+    margin-bottom: $size-lg;
+  }
+
+  .modal-description {
+    color: $dark-gray;
+    font-size: 0.9em;
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .btn {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-cancel {
+    background-color: $error;
+    color: $white;
+
+    &:hover {
+      background-color: $error-hover;
+    }
+  }
+
+  .btn-confirm {
+    background-color: $success;
+    color: $white;
+
+    &:hover {
+      background-color: $success-hover;
+    }
+  }
+}
+
+.download-btn {
+  display: block;
+  color: $dark-gray;
+
+  font-size: 30px;
+  &:hover {
+    color: $baby-blue;
+    cursor: pointer;
+  }
+}
