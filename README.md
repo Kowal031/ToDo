@@ -9,7 +9,7 @@ A responsive todo list application with the following **key features:**
 
 # 🚀 Demo:
 
-  Check out the live demo: [TODO List Demo](https://kowalczyk-maciej-todo-list.netlify.app/)
+  Check out the live demo: [TODO List Live Demo](https://kowalczyk-maciej-todo-list.netlify.app/)
 
 # 🔧 Installation and Setup:
 
