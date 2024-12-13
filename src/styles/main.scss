@@ -1,7 +1,10 @@
 @use "./variables" as *;
+@use "./mixins" as *;
 @use "./todo-item" as *;
 @use "./theme-switch" as *;
 @use "./todo-list" as *;
+@use "./modal" as *;
+@use "./language-switch" as *;
 @use "./theme" as *;
 
 * {

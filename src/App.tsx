@@ -1,15 +1,18 @@
 import { FC } from "react";
-import ThemeToggle from "./components/ThemeToggle";
+import Header from "./components/Header";
 import TodoList from "./components/TodoList";
+import { LanguageProvider } from "./context/LanguageContext";
 import { ThemeProvider } from "./context/ThemeContext";
 
 const App: FC = () => {
   return (
     <ThemeProvider>
-      <div className="app-container">
-        <ThemeToggle />
-        <TodoList />
-      </div>
+      <LanguageProvider>
+        <div className="app-container">
+          <Header />
+          <TodoList />
+        </div>
+      </LanguageProvider>
     </ThemeProvider>
   );
 };

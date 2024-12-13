@@ -8,9 +8,11 @@
   border: 1px solid;
   border-radius: $size-xs;
   transition: all 0.3s ease;
+  margin-right: 0.25rem;
 
   .checkbox {
     width: $size-xl;
+    min-width: $size-xl;
     height: $size-xl;
     border: 2px solid;
     border-radius: $size-xs;
@@ -36,6 +38,7 @@
   .todo-text {
     flex-grow: 1;
     transition: opacity 0.3s ease;
+    flex-wrap: wrap;
   }
 
   &.completed {

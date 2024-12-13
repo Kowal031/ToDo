@@ -38,6 +38,7 @@
 .todo-add-form-actions {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: $size-md;
 
   button {
@@ -88,4 +89,7 @@
   padding: 0;
   overflow-y: auto;
   max-height: 60vh;
+
+  overflow: auto;
+  scrollbar-width: thin;
 }

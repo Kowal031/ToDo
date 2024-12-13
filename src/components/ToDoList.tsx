@@ -17,7 +17,7 @@ import { FC, FormEvent, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { TodoType } from "../types/todoType";
 import { getTodos, saveTodos } from "../utils/localStorageUtils";
-import TodoAddItem from "./TodoAddItem";
+import TodoHeader from "./TodoHeader";
 import TodoItem from "./TodoItem";
 
 const TodoList: FC = () => {
@@ -48,7 +48,7 @@ const TodoList: FC = () => {
         text: newTodoText.trim(),
         completed: false,
       };
-      setTodos([...todos, newTodo]);
+      setTodos([newTodo, ...todos]);
       setNewTodoText("");
     }
   };
@@ -84,10 +84,11 @@ const TodoList: FC = () => {
 
   return (
     <div>
-      <TodoAddItem
+      <TodoHeader
         handleAddTodo={handleAddTodo}
         newTodoText={newTodoText}
         handleAddTodoText={handleAddTodoText}
+        todos={todos}
       />
       <DndContext
         sensors={sensors}

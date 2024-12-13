@@ -1,18 +1,22 @@
 import { FC, FormEvent } from "react";
-import { CONSTANTS } from "../constants/constants";
-import TodoAddItemButtons from "./TodoAddItemButtons";
+import { TodoType } from "../types/todoType";
+import { useTranslation } from "../utils/use-translations";
+import TodoHeaderButtons from "./TodoHeaderButtons";
 
-interface TodoAddItemProps {
+interface TodoHeaderProps {
   handleAddTodo: (e?: FormEvent) => void;
   newTodoText: string;
   handleAddTodoText: (text: string) => void;
+  todos: TodoType[];
 }
 
-const TodoAddItem: FC<TodoAddItemProps> = ({
+const TodoHeader: FC<TodoHeaderProps> = ({
   handleAddTodo,
   newTodoText,
   handleAddTodoText,
+  todos,
 }) => {
+  const t = useTranslation();
   return (
     <div className="todo-add-container">
       <form onSubmit={handleAddTodo} className="todo-add-form">
@@ -21,13 +25,16 @@ const TodoAddItem: FC<TodoAddItemProps> = ({
           className="todo-input"
           value={newTodoText}
           onChange={(e) => handleAddTodoText(e.target.value)}
-          placeholder={CONSTANTS.PLACEHOLDERS.TODO_ADD_ITEM}
+          placeholder={t("PLACEHOLDERS.TODO_ADD_ITEM")}
           autoFocus
         />
-        <TodoAddItemButtons handleAddTodoText={handleAddTodoText} />
+        <TodoHeaderButtons
+          handleAddTodoText={handleAddTodoText}
+          todos={todos}
+        />
       </form>
     </div>
   );
 };
 
-export default TodoAddItem;
+export default TodoHeader;

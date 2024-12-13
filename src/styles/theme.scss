@@ -13,9 +13,21 @@ body {
       box-shadow: 0 4px 6px $gray88;
     }
 
+    .modal-content {
+      background-color: $light-bg;
+
+      h2 {
+        color: $dark;
+      }
+    }
+
     .todo-input {
       background-color: $white-smoke;
       border-color: $gray88;
+    }
+
+    .todo-list {
+      scrollbar-color: $gray88 transparent;
     }
 
     .todo-item {
@@ -34,11 +46,24 @@ body {
       }
     }
 
+    .language-switcher-container {
+      background-color: $gray88;
+      color: $white;
+    }
+
     .theme-switch {
       background-color: $gray88;
 
       .theme-slider::before {
         background-color: $white;
+      }
+
+      .icon {
+        color: $dark-yellow;
+
+        &.moon {
+          color: $dark-gray;
+        }
       }
     }
   }
@@ -52,10 +77,22 @@ body {
       box-shadow: 0 4px 6px $dark;
     }
 
+    .modal-content {
+      background-color: $dark-bg;
+
+      h2 {
+        color: $white;
+      }
+    }
+
     .todo-input {
       background-color: $cloud-burst;
       border-color: $cloud-burst;
       color: $white-smoke;
+    }
+
+    .todo-list {
+      scrollbar-color: $cloud-burst transparent;
     }
 
     .todo-item {
@@ -74,11 +111,24 @@ body {
       }
     }
 
+    .language-switcher-container {
+      background-color: $bright-grey;
+      color: $white;
+    }
+
     .theme-switch {
       background-color: $bright-grey;
 
       .theme-slider::before {
         background-color: $midnight;
+      }
+
+      .icon {
+        color: $dark-gray;
+
+        &.moon {
+          color: $dark-yellow;
+        }
       }
     }
   }

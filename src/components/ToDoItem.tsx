@@ -3,6 +3,7 @@ import { CSS } from "@dnd-kit/utilities";
 import { FC } from "react";
 import { CONSTANTS } from "../constants/constants";
 import { TodoType } from "../types/todoType";
+import { useTranslation } from "../utils/use-translations";
 
 interface TodoItemProps {
   todo: TodoType;
@@ -11,6 +12,7 @@ interface TodoItemProps {
 }
 
 const TodoItem: FC<TodoItemProps> = ({ todo, onToggleComplete, onDelete }) => {
+  const t = useTranslation();
   const {
     attributes,
     listeners,
@@ -40,7 +42,7 @@ const TodoItem: FC<TodoItemProps> = ({ todo, onToggleComplete, onDelete }) => {
         />
         <span className="todo-text">{todo.text}</span>
         <button className="delete-btn" onClick={() => onDelete(todo.id)}>
-          {CONSTANTS.DELETE_BTN_LABEL}
+          {t("DELETE_BTN_LABEL")}
         </button>
       </li>
     </div>
