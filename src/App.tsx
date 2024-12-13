@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Header from "./components/Header";
-import TodoList from "./components/TodoList";
+import TodoList from "./components/ToDoList";
 import { LanguageProvider } from "./context/LanguageContext";
 import { ThemeProvider } from "./context/ThemeContext";
 

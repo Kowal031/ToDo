@@ -18,7 +18,7 @@ import { v4 as uuidv4 } from "uuid";
 import { TodoType } from "../types/todoType";
 import { getTodos, saveTodos } from "../utils/localStorageUtils";
 import TodoHeader from "./TodoHeader";
-import TodoItem from "./TodoItem";
+import TodoItem from "./ToDoItem";
 
 const TodoList: FC = () => {
   const [todos, setTodos] = useState<TodoType[]>(getTodos());
