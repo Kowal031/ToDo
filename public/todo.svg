@@ -1,0 +1,98 @@
+<svg id='Todo_List_24' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'>
+    <rect width='24' height='24' stroke='none' fill='#000000' opacity='0' />
+
+
+    <g transform="matrix(0.31 0 0 0.31 12 12)">
+        <g style="">
+            <g transform="matrix(1 0 0 1 0 0)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFva_1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="32" y1="4.75" x2="32" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFva_1); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-32, -32)"
+                    d="M 49 6 L 15 6 C 13.346 6 12 7.346 12 9 L 12 13 L 12 16 L 12 55 C 12 56.653999999999996 13.345 58 15 58 L 49 58 C 50.653999999999996 58 52 56.653999999999996 52 55 L 52 16 L 52 13 L 52 9 C 52 7.346 50.654 6 49 6 z M 15 8 L 49 8 C 49.552 8 50 8.448 50 9 L 50 10.184 C 50 10.072 49.352 10 49 10 L 15 10 C 14.648 10 14 10.072 14 10.184 L 14 9 C 14 8.448 14.448 8 15 8 z M 49 56 L 42 56 L 42 49 C 42 48.448 42.448 48 43 48 L 50 48 L 50 55 C 50 55.552 49.551 56 49 56 z M 50 46 L 43 46 C 41.346000000000004 46 40 47.346000000000004 40 49 L 40 56 L 15 56 C 14.448 56 14 55.552 14 55 L 14 16 L 14 13 C 14 12.448 14.448 12 15 12 L 49 12 C 49.552 12 50 12.448 50 13 L 50 16 L 50 46 z"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 -7.25 -10.81)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFvb_2" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="24.75" y1="4.75" x2="24.75" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFvb_2); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-24.75, -21.19)"
+                    d="M 23.001 23.587 L 19.707 20.293 L 18.293 21.707 L 21.587 25.001 C 21.976 25.391000000000002 22.487 25.585 22.999 25.585 C 23.511 25.585 24.023 25.391000000000002 24.413 25.001 L 31.207 18.207 L 29.793 16.793 L 23.001 23.587 z"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 8 -13)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFvc_3" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="40" y1="4.75" x2="40" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFvc_3); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-40, -19)" d="M 34 18 L 46 18 L 46 20 L 34 20 z" stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 8 -9)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFvd_4" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="40" y1="4.75" x2="40" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFvd_4); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-40, -23)" d="M 34 22 L 46 22 L 46 24 L 34 24 z" stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 -7.25 5.19)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFve_5" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="24.75" y1="4.75" x2="24.75" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFve_5); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-24.75, -37.19)"
+                    d="M 23.001 39.587 L 19.707 36.293000000000006 L 18.293 37.70700000000001 L 21.587 41.001000000000005 C 21.976 41.391000000000005 22.487 41.58500000000001 22.999 41.58500000000001 C 23.511 41.58500000000001 24.023 41.391000000000005 24.413 41.001000000000005 L 31.207 34.20700000000001 L 29.793 32.793000000000006 L 23.001 39.587 z"
+                    stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 8 3)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFvf_6" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="40" y1="4.75" x2="40" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFvf_6); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-40, -35)" d="M 34 34 L 46 34 L 46 36 L 34 36 z" stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 8 7)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFvg_7" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="40" y1="4.75" x2="40" y2="59.528">
+                    <stop offset="0%" style="stop-color:rgb(26,109,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(200,34,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFvg_7); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-40, -39)" d="M 34 38 L 46 38 L 46 40 L 34 40 z" stroke-linecap="round" />
+            </g>
+            <g transform="matrix(1 0 0 1 14 20)">
+                <linearGradient id="SVGID_4vyDUYgjydN2OgeywhfFvh_8" gradientUnits="userSpaceOnUse"
+                    gradientTransform="matrix(1 0 0 1 0 0)" x1="46" y1="49.75" x2="46" y2="54.684">
+                    <stop offset="0%" style="stop-color:rgb(109,199,255);stop-opacity: 1" />
+                    <stop offset="100%" style="stop-color:rgb(230,171,255);stop-opacity: 1" />
+                </linearGradient>
+                <path
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4vyDUYgjydN2OgeywhfFvh_8); fill-rule: nonzero; opacity: 1;"
+                    transform=" translate(-46, -52)"
+                    d="M 48 53 C 48 53.552 47.552 54 47 54 L 45 54 C 44.448 54 44 53.552 44 53 L 44 51 C 44 50.448 44.448 50 45 50 L 47 50 C 47.552 50 48 50.448 48 51 L 48 53 z"
+                    stroke-linecap="round" />
+            </g>
+        </g>
+    </g>
+</svg>
