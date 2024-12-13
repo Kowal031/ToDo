@@ -4,7 +4,7 @@ import { useLanguage } from "../context/LanguageContext";
 import { LanguageEnum } from "../translation/translations-helpers";
 import { useTranslation } from "../utils/use-translations";
 
-const switchColor = "#1976d2";
+const switchColor = "#371079";
 
 const LanguageSwitcher: FC = () => {
   const { language, handleChangeLanguage } = useLanguage();
@@ -39,15 +39,12 @@ const LanguageSwitcher: FC = () => {
           inputProps={{ "aria-label": "language-switch" }}
           sx={{
             "& .MuiSwitch-thumb": {
-              backgroundColor: switchColor,
+              backgroundColor: `${switchColor} `,
             },
             "& .MuiSwitch-track": {
-              backgroundColor: switchColor,
+              backgroundColor: `${switchColor} `,
             },
-            "& .Mui-checked .MuiSwitch-thumb": {
-              backgroundColor: switchColor,
-            },
-            "& .Mui-checked .MuiSwitch-track": {
+            ".MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track": {
               backgroundColor: switchColor,
             },
           }}
